@@ -1,59 +1,128 @@
-# SistemaConsultores
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.1.
+# 🚀 ConsultHype
 
-## Development server
+Uma aplicação **Angular moderna** projetada para apresentar e filtrar uma lista de consultores especializados de forma ágil, inteligente e otimizada.
+Com **Server-Side Rendering (SSR)**, garante **alta performance inicial**, carregamento rápido e **SEO aprimorado**, oferecendo uma experiência fluida e responsiva.
 
-To start a local development server, run:
+---
+
+## 📋 Visão Geral
+
+O **ConsultHype** é um sistema web que permite aos usuários:
+
+* 📌 Explorar uma lista de consultores profissionais
+* 🔍 Filtrar consultores por área de especialização
+* 📱 Navegar em uma interface **intuitiva, moderna e responsiva**
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Angular 18+** → Framework principal
+* **TypeScript** → Tipagem forte e segura
+* **Server-Side Rendering (SSR)** → Performance e SEO otimizados
+* **Node.js** → Ambiente de execução do servidor
+* **Express.js** → Servidor web para renderização SSR
+
+---
+
+## 📦 Pré-requisitos
+
+Antes de iniciar, garanta que possui instalado em sua máquina:
+
+* **Node.js** (versão 18 ou superior)
+* **npm** ou **yarn**
+* **Angular CLI** (`npm install -g @angular/cli`)
+
+---
+
+## ⚙️ Instalação
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/Barreto0620/ConsultHype.git
+cd ConsultHype
+```
+
+2. Instale as dependências:
+
+```bash
+npm install
+```
+
+---
+
+## 🚀 Execução
+
+### Modo Desenvolvimento (Client-Side)
+
+Para rodar a aplicação localmente:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Acesse em: **[http://localhost:4200](http://localhost:4200)**
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🔍 Funcionalidades
 
-```bash
-ng generate component component-name
-```
+### Principais Componentes
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+* **AppComponent** → Raiz da aplicação, coordena os demais módulos
+* **ConsultantListComponent** → Lista e exibe os consultores disponíveis
+* **ConsultantFilterComponent** → Filtros por área de especialização
+* **ConsultantsService** → Gestão de dados e lógica de negócios
 
-```bash
-ng generate --help
-```
+### Fluxo de Dados
 
-## Building
+1. O usuário aplica filtros no **ConsultantFilterComponent**
+2. O **AppComponent** recebe os eventos e aciona o **ConsultantsService**
+3. O **ConsultantListComponent** exibe a lista atualizada com os resultados
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## 🏗️ Arquitetura
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+O projeto segue os princípios de **boas práticas**:
 
-## Running unit tests
+* 🔹 **Separação de responsabilidades**: UI em componentes, lógica em serviços
+* 🔹 **Comunicação eficiente**: via `@Input()` e `@Output()`
+* 🔹 **Tipagem forte**: Interface `Consultant` garante consistência dos dados
+* 🔹 **SSR integrado**: maior performance e SEO otimizado
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+## 🔄 Benefícios do SSR
 
-## Running end-to-end tests
+* 🚀 **Performance inicial superior** (carregamento rápido)
+* 📈 **SEO otimizado** (conteúdo visível para buscadores)
+* 🎯 **Melhor experiência do usuário** na primeira interação
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
+## 🤝 Contribuindo
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+1. Faça um **fork** do repositório
+2. Crie uma nova branch (`git checkout -b feature/MinhaFeature`)
+3. Realize suas alterações e commit (`git commit -m 'feat: adiciona MinhaFeature'`)
+4. Envie para o repositório (`git push origin feature/MinhaFeature`)
+5. Abra um **Pull Request**
 
-## Additional Resources
+---
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 📝 Licença
+
+Este projeto está licenciado sob a **MIT License**.
+Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## 📧 Contato
+
+👤 **Gabriel Barreto**
+✉️ [gabrielprozds@gmail.com](mailto:gabrielprozds@gmail.com)
+
+---
