@@ -1,0 +1,9 @@
+<div class="container">
+  <header>
+    <h1>Consultores da Empresa</h1>
+    <p class="subtitle">Encontre o profissional ideal para o seu projeto</p>
+  </header>
+  
+  <app-consultant-filter (filterSelected)="onFilterSelected($event)"></app-consultant-filter>
+  <app-consultant-list [consultants]="filteredConsultants"></app-consultant-list>
+</div>

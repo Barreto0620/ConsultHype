@@ -1,0 +1,8 @@
+<div class="filter-container">
+  <label for="specialization-filter">Filtrar por especialização:</label>
+  <select id="specialization-filter" (change)="onFilterChange($event)">
+    <option *ngFor="let specialization of specializations" [value]="specialization">
+      {{ specialization }}
+    </option>
+  </select>
+</div>

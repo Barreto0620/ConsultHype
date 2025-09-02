@@ -1,0 +1,10 @@
+<div class="consultant-grid">
+  <div *ngFor="let consultant of consultants" class="consultant-card">
+    <h3>{{ consultant.name }}</h3>
+    <p><strong>Especialização:</strong> {{ consultant.specialization }}</p>
+    <p>{{ consultant.bio }}</p>
+  </div>
+  <div *ngIf="consultants.length === 0" class="no-results">
+    Nenhum consultor encontrado para esta especialização.
+  </div>
+</div>

@@ -1,0 +1,55 @@
+.consultant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.consultant-card {
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: rgba(255,255,255,0.96);
+  backdrop-filter: blur(10px);
+  border-top: 3px solid #3498db;
+}
+
+.consultant-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 35px rgba(0,0,0,0.2);
+  border-top-color: #2980b9;
+}
+
+.consultant-card h3 {
+  color: #2c3e50;
+  margin-bottom: 12px;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.consultant-card p {
+  margin: 10px 0;
+  line-height: 1.6;
+  color: #34495e;
+}
+
+.consultant-card strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.no-results {
+  text-align: center;
+  grid-column: 1 / -1;
+  font-style: italic;
+  color: #7f8c8d;
+  font-size: 1.1em;
+  padding: 40px;
+  background: rgba(255,255,255,0.92);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.3);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
