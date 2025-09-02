@@ -116,7 +116,7 @@ O projeto segue os princípios de **boas práticas**:
 ## 📝 Licença
 
 Este projeto está licenciado sob a **MIT License**.
-Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Veja o arquivo [LICENSE](https://github.com/Barreto0620/ConsultHype?tab=MIT-1-ov-file) para mais detalhes.
 
 ---
 
